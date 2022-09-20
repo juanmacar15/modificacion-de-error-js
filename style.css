@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.form-content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    border-radius: 20px;
+    background-color: coral;
+    box-shadow: 0 0 100px coral;
+    text-align: center;
+}
+
+
+.formulario h3{
+    padding: 5px;
+    text-align: center;
+}
+
+.input-number, .btn{
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: coral;
+    box-shadow: 0 0 10px rgb(196, 63, 15);
+}
+
+.btn:hover{
+    color: rgb(196, 63, 15);
+}
